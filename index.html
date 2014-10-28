@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CarCar</title>
+	<meta name="author" content="Ostap Golyaka" />
+	<meta name="description" content="CarCar landing." />
+	<meta name="keywords"  content="CarCar,awesome,startup" />
+	<meta name="Resource-type" content="Document" />
+
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['First page', 'Second page', 'Third and last page']
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="fullpage">
+	<div class="section active" id="section0">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="fixed-header">
+						<h1>CarBox</h1>
+					</div>
+					<div class="text-box">
+						<p>Message car owner<br>knowing only<br>license plate number.</p>
+					</div>
+					<a href="#">
+						<img class="fixed-footer" src="img/app-store.png">
+					</a>
+				</div>
+				<div class="col-sm-6 img-place">
+					<div class="img-box">
+						<img class="img-responsive" src="img/img_1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="text-box">
+						<p>Receive courtesy<br>warning notifications<br>from other drivers.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 img-place">
+					<div class="img-box">
+						<img class="img-responsive" src="img/img_1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="text-box">
+						<p>Reach the person<br>blocking your driveway.</p>
+					</div>
+				</div>
+				<div class="col-sm-6 img-place">
+					<div class="img-box">
+						<img class="img-responsive" src="img/img_1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
