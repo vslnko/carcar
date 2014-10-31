@@ -11,9 +11,11 @@ $(document).ready(function() {
             url: $that.attr('action'),
             data: $that.serialize()
         }).done(function(data) {
-            document.getElementById("node-2").value = "Done";
+            $that.fadeOut(100);
+            $(".done").fadeIn(100);
+          
         }).fail(function() {
-           document.getElementById("node-2").value = "Fail";
+            $(".fail").fadeIn(100);
         })
 
 
