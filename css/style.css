@@ -29,6 +29,9 @@ p {
 	text-align: center;
 	z-index: 
 }
+.done {
+    display:none;
+}
 
 @media screen and (max-width: 1023px){
     h1 {
