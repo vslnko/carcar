@@ -1,7 +1,7 @@
 h1 {
 	font-size: 50px;
     font-family: 'Varela Round', sans-serif;
-    color: #0077FF;
+    color: #4bb3fc;
     margin-bottom: 40px;
 }
 p {
@@ -18,7 +18,7 @@ p {
     z-index: 150 ;
 }
 .fixed-footer {
-	width: 170px;
+	width: 180px;
 	bottom: 20%;
 	z-index: 50;
 }
@@ -157,17 +157,17 @@ p {
     margin-top: 10px;
     padding: 3px 30px;
     border-radius: 5px;
-    border: 2px solid #0077FF;
+    border: 2px solid #4bb3fc;
     background-color: transparent;
     font-family: 'Varela Round', sans-serif;
     font-size: 24px;
-    color: #0077FF;
+    color: #4bb3fc;
     line-height: 44px;
     font-weight: 400;
     text-align: center;
     text-decoration: none;
 }
 .button:hover {
-    background-color: #0077FF;
+    background-color: #4bb3fc;
     color: white;
 }
