@@ -12,7 +12,7 @@ p {
 	position: fixed;
 }
 .fixed-header {
-	top: 10%;
+	top: 15%;
 }
 .fp-nav {
     z-index: 150 ;
